@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Alloy</title>
+		<title>{{ page.title }}</title>
 		<link rel="stylesheet" type="text/css" href="/css/main.css">
 	</head>
 	<body>
@@ -13,13 +13,11 @@
         <a href="/gallery"><img border="0" src="./images/icons/gallery.png" style="width: 142px; height: 90px; position: relative;"></a>
         <a href="/merch"><img border="0" src="./images/icons/merch.png" style="width: 130px; height: 70px; position: relative;"></a>
 	</div>
-		</div>
-		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Hank Quinlan!</h1>
-				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
+	<div class="container">
+			
+			{{ content }}
+			
+	</div><!-- /.container -->
 		<footer>
     		<ul>
         		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
