@@ -1,3 +1,15 @@
 body {
-    background-color: #0d0d0d;
+  background-color: #0d0d0d;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #fdfdfd;
+}
+
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
 }
