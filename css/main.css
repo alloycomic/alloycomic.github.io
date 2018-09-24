@@ -14,7 +14,14 @@ body {
   text-align: center;
 }
 
-imgflip {
+icon {
+  width: 103px;
+  height: 103px;
+}
+
+iconflip {
+  width: 103px;
+  height: 103px;
   transform: scaleX(-1); 
 }
 
