@@ -13,3 +13,27 @@ body {
   left: 0;
   text-align: center;
 }
+
+imgflip {
+  transform: scaleX(-1); 
+}
+
+/* unvisited link */
+a:link {
+    color: #ddddfd;
+}
+
+/* visited link */
+a:visited {
+    color: #ddddfd;
+}
+
+/* mouse over link */
+a:hover {
+    color: #ddddfd;
+}
+
+/* selected link */
+a:active {
+    color: #ddddfd;
+}
