@@ -38,20 +38,20 @@ footer {
 
 /* unvisited link */
 a:link {
-    color: #ddddfd;
+    text-decoration: none;
 }
 
 /* visited link */
 a:visited {
-    color: #ddddfd;
+    text-decoration: none;
 }
 
 /* mouse over link */
 a:hover {
-    color: #ddddfd;
+    text-decoration: underline;
 }
 
 /* selected link */
 a:active {
-    color: #ddddfd;
+    text-decoration: underline;
 }
