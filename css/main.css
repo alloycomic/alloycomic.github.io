@@ -6,17 +6,17 @@ body {
   flex: 1;
 }
 
-#wrapper {
-  display: flex;  /* use the flex model */
-  min-height: 100%;
-  flex-direction: column;  /* learn more: http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/ */
-}
-
-#header {
+.header {
+  position: fixed;
+  left: 0;
+  right: 0;
   text-align: center;
 }
 
-#footer{
+.footer {  
+  position: fixed;
+  left: 0;
+  right: 0;
   text-align: center;
 }
 
