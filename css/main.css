@@ -36,6 +36,10 @@ footer {
   ms-filter: "FlipH"; 
 }
 
+a {
+  color: #ffffff;
+}
+
 /* unvisited link */
 a:link {
     color: #ffffff;
