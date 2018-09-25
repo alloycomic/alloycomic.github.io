@@ -3,14 +3,20 @@ body {
   font-family: "Helvetica Neue", Arial, sans-serif;
   color: #fdfdfd;
   padding-bottom: 100px;
+  flex: 1;
 }
 
-.footer {
-  position: fixed;
-  height: 100px;
-  right: 0;
-  bottom: 0;
-  left: 0;
+#wrapper {
+  display: flex;  /* use the flex model */
+  min-height: 100%;
+  flex-direction: column;  /* learn more: http://philipwalton.github.io/solved-by-flexbox/demos/sticky-footer/ */
+}
+
+#header {
+  text-align: center;
+}
+
+#footer{
   text-align: center;
 }
 
